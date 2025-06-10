@@ -1,0 +1,4 @@
+dotnet new sln -n InventoryHub
+dotnet new blazorwasm -n ClientApp
+dotnet new webapi -n ServerApp
+dotnet sln InventoryHub.sln add ClientApp/ ServerApp/
